@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gap {
+    height: 100px;
+}
+.headline {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20vh;
+    animation: slide 5s infinite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    transform: box;
+    margin: 100px;
+}
+
+
+
+.box:hover {
+    background-color: #0000ff;
+    transition: 2000ms ;
+}
+
+
+@keyframes head {
+    from { background-color: #ff0000;
+
+}
